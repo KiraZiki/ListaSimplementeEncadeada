@@ -1,17 +1,11 @@
-public class No{
+public class Node {
+    public int value;
+    public Node next;
 
-    //Atributos - Características
-    public int valor;
-    public No prox;
-
-    //Construtor
-    public No(int Valor){
-        this.valor = Valor;
-        this.prox = null;
+    public Node(int value) {
+        this.value = value;
+        this.next = null;
     }
 
-    //Métodos
-    public void imprimir(){
-        Console.WriteLine("Valor: " + this.valor);
-    }
+
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno\\Desktop\\lista\\lista.csproj",
-      "projectName": "lista",
-      "projectPath": "C:\\Users\\aluno\\Desktop\\lista\\lista.csproj",
+      "projectUniqueName": "C:\\Users\\aluno\\Desktop\\EstruturaDados\\Lista\\Lista.csproj",
+      "projectName": "Lista",
+      "projectPath": "C:\\Users\\aluno\\Desktop\\EstruturaDados\\Lista\\Lista.csproj",
       "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno\\Desktop\\lista\\obj\\",
+      "outputPath": "C:\\Users\\aluno\\Desktop\\EstruturaDados\\Lista\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"

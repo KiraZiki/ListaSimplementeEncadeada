@@ -1,17 +1,20 @@
-﻿Lista lista = new();
+﻿using System;
 
-lista.inserirInicio(10);
-lista.inserirInicio(7);
-lista.inserirInicio(12);
-lista.inserirInicio(-5);
+namespace Lista{
+    class Program {
+        static void Main(string[] args) {
+            ListMine lista = new ListMine();
+            // lista.insertStart(1);
+            lista.insertSort(-2);
+            lista.insertSort(5);
+            lista.insertSort(6);
+            // lista.insertEnd(10);
+            // lista.insertEnd(11);
+            lista.remove(6);
+            // lista.insertEnd(1);
+            // lista.insertEnd(2);
+            lista.showList();
 
-int valor = -7;
-No noAnterior, noAtual;
-noAnterior = null;
-noAtual = null;
-
-Boolean verif = lista.consulta(valor, ref noAtual, ref noAnterior);
-if(verif == true) Console.WriteLine("Número encontrado!");
-else Console.WriteLine("Número não encontrado!");
-
-lista.imprimir();
+        }
+    }
+}
